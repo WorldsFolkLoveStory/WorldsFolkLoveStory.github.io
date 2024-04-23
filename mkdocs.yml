@@ -1,0 +1,57 @@
+site_name: 东西方民间爱情故事 wiki 
+site_url: https://worldsfolklovestory.github.io/
+nav:
+  - Home: index.md
+  - About: about.md
+  # - 东方: 
+  #   - 中国: 
+  - 西方: 
+      - 古希腊/罗马: 
+        - 宙斯和他的各色情人: Western/Greek_Roma/Zeus_lovers.md
+        - 俄耳甫斯和欧律狄刻: Western/Greek_Roma/Orpheus_Eurydice.md
+        - 皮格马利翁和伽拉忒亚: Western/Greek_Roma/Pygmalion_Galatea.md
+        - 奥德修斯和珀涅罗珀: Western/Greek_Roma/Odysseus_Penelope.md
+        - 那耳喀索斯的自恋: Western/Greek_Roma/Narcissus_himself.md
+      - 北欧:
+        - 齐格鲁德（西格鲁德）和布伦希尔德: Western/Nordic/Sigurd_Brunhild.md
+  #     - 凯尔特:
+  #       - 《亚瑟王传说》相关人物:        
+  # - 近现代: 
+  #   - 戏剧:
+  #   - 文学作品:
+theme:
+  # 要取个名，否则报错
+  name: material
+  # 指定：拓展用の文件夹引用
+  # 要添加的资产依然添加到/docs中，在/site - overrides中覆写代码
+  custom_dir: site - overrides
+  # 网站语言：中文
+  language: 'zh'
+  palette:
+  # 明暗主题跟随浏览器设定
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: pink
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  # 网站大logo
+  logo: assets/logo.png
+  # 网站小图标favicon
+  favicon: images/favicon.png
+    
