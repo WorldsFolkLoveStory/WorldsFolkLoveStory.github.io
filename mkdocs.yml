@@ -24,7 +24,7 @@ theme:
   name: material
   # 指定：拓展用の文件夹引用
   # 要添加的资产依然添加到/docs中，在/site - overrides中覆写代码
-  custom_dir: site - overrides
+  custom_dir: overrides
   # 网站语言：中文
   language: 'zh'
   palette:
