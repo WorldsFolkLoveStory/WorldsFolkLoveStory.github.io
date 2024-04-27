@@ -3,19 +3,21 @@ site_url: https://worldsfolklovestory.github.io/
 nav:
   - Home: index.md
   - About: about.md
-  # - 东方: 
-  #   - 中国: 
+  - 东方: 
+    - 印度:
+      - 罗摩和悉多: Eastern/India/Rama_Sita.md
+
   - 西方: 
-      - 古希腊/罗马: 
-        - 宙斯和他的各色情人: Western/Greek_Roma/Zeus_lovers.md
-        - 俄耳甫斯和欧律狄刻: Western/Greek_Roma/Orpheus_Eurydice.md
-        - 皮格马利翁和伽拉忒亚: Western/Greek_Roma/Pygmalion_Galatea.md
-        - 奥德修斯和珀涅罗珀: Western/Greek_Roma/Odysseus_Penelope.md
-        - 那耳喀索斯的自恋: Western/Greek_Roma/Narcissus_himself.md
-      - 北欧:
-        - 齐格鲁德（西格鲁德）和布伦希尔德: Western/Nordic/Sigurd_Brunhild.md
-  #     - 凯尔特:
-  #       - 《亚瑟王传说》相关人物:        
+    - 古希腊/罗马: 
+      - 宙斯和他的各色情人: Western/Greek_Roma/Zeus_lovers.md
+      - 俄耳甫斯和欧律狄刻: Western/Greek_Roma/Orpheus_Eurydice.md
+      - 皮格马利翁和伽拉忒亚: Western/Greek_Roma/Pygmalion_Galatea.md
+      - 奥德修斯和珀涅罗珀: Western/Greek_Roma/Odysseus_Penelope.md
+      - 那耳喀索斯的自恋: Western/Greek_Roma/Narcissus_himself.md
+    - 北欧:
+      - 齐格鲁德（西格鲁德）和布伦希尔德: Western/Nordic/Sigurd_Brunhild.md
+    - 不列颠群岛:
+      - 《亚瑟王传说》相关人物: Western/Celts/stories_KingOfArthur.md        
   # - 近现代: 
   #   - 戏剧:
   #   - 文学作品:
